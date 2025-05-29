@@ -1,0 +1,20 @@
+php_version = "8.4"
+
+[source]
+paths = ["src"]
+
+[format]
+print_width = 80
+tab_width = 2
+use_tabs = false
+method_brace_style = "same_line"
+closure_brace_style = "same_line"
+control_brace_style = "same_line"
+function_brace_style = "same_line"
+classlike_brace_style = "same_line"
+parentheses_in_attribute = true
+parentheses_in_exit_and_die = true
+parentheses_in_new_expression = true
+line_before_binary_operator = true
+inline_empty_classlike_braces = true
+always_break_named_arguments_list = false

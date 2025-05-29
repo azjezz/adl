@@ -1,0 +1,24 @@
+{
+    "name": "azjezz/adl",
+    "description": "A tool for managing your architecture decision records",
+    "type": "project",
+    "require": {
+        "php": "^8.4",
+        "azjezz/psl": "^3.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brad Cypert"
+        },
+        {
+            "name": "azjezz",
+            "email": "azjezz@carthage.software"
+        }
+    ]
+}
